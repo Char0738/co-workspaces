@@ -5,11 +5,11 @@
 @font-face{
     font-family: "honeyscript";
     font-style: normal;
-    src: url(./fonts/honeyscript-light-webfont.ttf);
+    src: url("./fonts/honeyscript-light-webfont.ttf");
 
 }
 @font-face{
     font-family: "lato";
     font-style: normal;
-    src: url(./fonts/lato-bold.ttf);
+    src: url("./fonts/lato-regular.ttf");
 }

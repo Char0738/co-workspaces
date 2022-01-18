@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+body{
     font-family: lato;
 }
 
 header{
-   font-family: Arial, Helvetica, sans-serifs;
+   font-family: lato;
    margin: 20px;
    display: flex;
    
@@ -68,10 +71,12 @@ header .nav-items ul li a{
     font-size: 20px;
     font-weight: 100%;
     text-transform: uppercase;
+
 }
-.inner-hero p{
+ .hero .inner-hero p{
     font-family: honeyscript;
-    font-weight: 100%;
+    font-weight: bolder;
+    font-size: 50px;
 }
 
 .services{
@@ -348,7 +353,7 @@ hr{
     }
     .blog h2{
         padding: 50px;
-        font-family: honeyscript;
+        font-family: lato;
         font-weight: 100%;
         
     }
