@@ -16,6 +16,12 @@ header{
    
 
 }
+header .nav-items{
+    position: relative;
+    left: 15vw;
+    
+    
+}
 
 header .nav-items ul{
     
@@ -86,7 +92,7 @@ header .nav-items ul li a{
 .about{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgb(230, 219, 219);
+    background-color: rgba(241, 239, 227, 0.7);
     text-align: center;
     
 }
@@ -123,7 +129,7 @@ header .nav-items ul li a{
 }
 
 .blog .inner-blog{
-    background-color: rgb(224, 214, 214);
+    background-color: rgba(241, 239, 227, 0.7);
 
 }
 .blog .inner-blog .blog-items{
@@ -210,8 +216,9 @@ footer .inner-footer h4{
 
 }
 hr{
+    width: 50%;
     margin: 20px;
-    border-color: rgb(29, 27, 27);
+    border-color: rgb(15, 14, 14);
 }
 @media(min-width:568px){
     
@@ -229,6 +236,16 @@ hr{
     }
     .blog .inner-blog{
         margin: 30px;
+    }
+    .subscribe input{
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 80px;
+        border: none;
+        
+    
+    
+    
     }
 }
 @media(min-width:768px){
@@ -258,6 +275,16 @@ hr{
         display: flex;
         flex-direction: row;
     }
+    .subscribe input{
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 80px;
+        border: none;
+        
+    
+    
+    
+    }
 
 }
 @media(min-width:992px){
@@ -266,6 +293,16 @@ hr{
         left: 80vw;
         
         
+    }
+    .subscribe input{
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 80px;
+        border: none;
+        
+    
+    
+    
     }
   
     
@@ -290,11 +327,58 @@ hr{
         padding-left: 200px;
         padding-right: 200px;
     }
-  
+
+    .inner-hero h1{
+        font-size: 30px;
+    }
+
+    .inner-hero p{
+        font-size: 20px;
+    }
+
+    .blog .inner-blog .blog-items{
+        padding: 70px;
+       
+        padding-bottom: 90px;
+        
+    }
+    .blog .inner-blog .blog-items p{
+        padding-bottom: 20px;
+
+    }
+    .blog h2{
+        padding: 50px;
+        font-family: honeyscript;
+        font-weight: 100%;
+        
+    }
+    .subscribe input{
+        width: 10%;
+        padding: 10px;
+        margin-bottom: 80px;
+        border: none;
+        
     
     
     
+    }
+    .subscribe h1{
+        padding-top: 50px;
+    }
+
+    .inner-about p{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .inner-about button{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+    footer ul li{
+        font-size: 20px;
+    }
+
+
+
+
 }
-
-
-
